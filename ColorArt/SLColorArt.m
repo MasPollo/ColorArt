@@ -63,7 +63,7 @@
 		NSImage *finalImage = [self scaleImage:image size:size];
 		self.scaledImage = finalImage;
 		
-		[self analyzeImage:image];
+		[self analyzeImage:self.scaledImage];
     }
 
     return self;
